@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import Books from "./pages/Books"
 import BookInfo from "./pages/BookInfo"
+import Cart from "./pages/Cart"
 import { books } from "./data"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books books={books} />} />
           <Route path="/books/:id" element={<BookInfo books={books} />} />
+          <Route path="/cart" element={<Cart books={books} />} />
         </Routes>
         <Footer />
       </div>
