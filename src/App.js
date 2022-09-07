@@ -47,6 +47,10 @@ function App() {
     )
   }
 
+  function removeItem(item) {
+    setCart(cart.filter(book => book.id !== item.id))
+  }
+
   return (
     <Router>
       <div className="App">
@@ -63,7 +67,12 @@ function App() {
           <Route
             path="/cart"
             element={
-              <Cart books={books} cart={cart} changeQuantity={changeQuantity} />
+              <Cart
+                books={books}
+                cart={cart}
+                changeQuantity={changeQuantity}
+                removeItem={removeItem}
+              />
             }
           />
         </Routes>
