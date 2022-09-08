@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import LibraryLogo from "../assets/Library.svg"
+import MythicLogo from "../assets/Mythic.png"
 
 const Nav = ({ numberOfItems }) => {
   function openMenu() {
@@ -16,7 +16,7 @@ const Nav = ({ numberOfItems }) => {
     <nav>
       <div className="nav__container">
         <Link to="/">
-          <img src={LibraryLogo} alt="" className="logo" />
+          <img src={MythicLogo} alt="" className="logo" />
         </Link>
         <ul className="nav__links">
           <li className="nav__list">

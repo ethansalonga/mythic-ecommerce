@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Logo from "../assets/Library.svg"
+import MythicLogo from "../assets/Mythic.png"
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="row row__column">
         <Link to="/">
           <figure className="footer__logo">
-            <img src={Logo} alt="" className="footer__logo--img" />
+            <img src={MythicLogo} alt="" className="footer__logo--img" />
           </figure>
         </Link>
         <div className="footer__list">
