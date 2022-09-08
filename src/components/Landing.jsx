@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import UndrawBooks from "../assets/Undraw_Books.svg"
+import LuluVector from "../assets/Lulu_Vector.png"
 
 const Landing = () => {
   return (
@@ -8,16 +8,17 @@ const Landing = () => {
       <header>
         <div className="header__container">
           <div className="header__description">
-            <h1>America's most awarded online library platform</h1>
+            <h1>Runeterra's most preferred online item shop</h1>
             <h2>
-              Find your dream book with <span className="purple">Library</span>
+              Find your dream artifact with{" "}
+              <span className="purple">Mythic</span>
             </h2>
             <Link to="#features">
-              <button className="btn">Browse books</button>
+              <button className="btn">Browse items</button>
             </Link>
           </div>
           <figure className="header__img--wrapper">
-            <img src={UndrawBooks} alt="" />
+            <img src={LuluVector} alt="" />
           </figure>
         </div>
       </header>
