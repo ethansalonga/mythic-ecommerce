@@ -1,6 +1,6 @@
 import React from "react"
-import Book from "./ui/Book"
-import { books } from "../data"
+import Item from "./ui/Item"
+import { items } from "../data"
 
 const Featured = () => {
   return (
@@ -11,11 +11,11 @@ const Featured = () => {
             Featured <span className="purple">Books</span>
           </h2>
           <div className="books">
-            {books
+            {items
               .filter(book => book.rating === 5)
               .slice(0, 4)
               .map(book => (
-                <Book book={book} key={book.id} />
+                <Item book={book} key={book.id} />
               ))}
           </div>
         </div>

@@ -32,9 +32,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                       <div className="cart__book">
                         <img src={book.url} class="cart__book--img" alt="" />
                         <div className="cart__book--info">
-                          <span className="cart__book--title">
-                            {book.title}
-                          </span>
+                          <span className="cart__book--title">{book.name}</span>
                           <span className="cart__book--price">
                             ${(book.salePrice || book.originalPrice).toFixed(2)}
                           </span>

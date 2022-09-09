@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 import Home from "./pages/Home"
-import Books from "./pages/Books"
-import BookInfo from "./pages/BookInfo"
+import Items from "./pages/Items"
+import ItemInfo from "./pages/ItemInfo"
 import Cart from "./pages/Cart"
-import { books } from "./data"
+import { items } from "./data"
 
 function App() {
   const [cart, setCart] = useState([])
@@ -65,18 +65,17 @@ function App() {
         <Nav numberOfItems={numberOfItems()} />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/items" element={<Books books={books} />} />
+          <Route path="/items" element={<Items items={items} />} />
           <Route
-            path="/books/:id"
+            path="/items/:id"
             element={
-              <BookInfo books={books} addToCart={addToCart} cart={cart} />
+              <ItemInfo items={items} addToCart={addToCart} cart={cart} />
             }
           />
           <Route
             path="/cart"
             element={
               <Cart
-                books={books}
                 cart={cart}
                 changeQuantity={changeQuantity}
                 removeItem={removeItem}

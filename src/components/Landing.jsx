@@ -13,9 +13,9 @@ const Landing = () => {
               Find your dream artifact with{" "}
               <span className="purple">Mythic</span>
             </h2>
-            <Link to="#features">
+            <a href="#features">
               <button className="btn">Browse items</button>
-            </Link>
+            </a>
           </div>
           <figure className="header__img--wrapper">
             <img src={LuluVector} alt="" />
