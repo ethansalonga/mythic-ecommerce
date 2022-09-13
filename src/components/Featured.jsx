@@ -10,12 +10,12 @@ const Featured = () => {
           <h2 className="section__title">
             Featured <span className="purple">Books</span>
           </h2>
-          <div className="books">
+          <div className="items">
             {items
-              .filter(book => book.rating === 5)
+              .filter(item => item.rating === 5)
               .slice(0, 4)
-              .map(book => (
-                <Item book={book} key={book.id} />
+              .map(item => (
+                <Item item={item} key={item.id} />
               ))}
           </div>
         </div>
