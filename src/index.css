@@ -755,6 +755,7 @@ select {
 .cart__empty--img {
   padding: 40px;
   max-width: 400px;
+  border-radius: 50%;
 }
 
 .btn__checkout {
