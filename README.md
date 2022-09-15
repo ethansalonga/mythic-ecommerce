@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT SHIELDS -->
 
-## Available Scripts
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="/public/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-### `npm start`
+  <h3 align="center">Mythic Item Shop</h3>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+[![Product Name Screen Shot][product-screenshot]](https://mythic-ecommerce.herokuapp.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_"Treasures of the ages, on sale now!"_ - Hermit Shopkeeper
 
-### `npm run build`
+Mythic Item Shop is a dynamic e-commerce application that mimics the UI/UX of a real online shopping portal. The project was built in React and features a theme designed around the online video game League of Legends (one of my personal favorites). Explore the artifacts of Runeterra by purchasing Mythic-level items from the game, complete with in-game data such as item stats and descriptions. Note: The checkout section of this project has not yet been implemented.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- HTML
+- CSS
+- JavaScript
+- [![React][react.js]][react-url]
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- GETTING STARTED -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Mythic Item Shop is hosted and deployed online using Heroku. Click the image above to view the application, or alternatively, read on to learn how to run it locally on your machine.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+To run locally on your machine, a package manager such as npm or yarn is the only requirement.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- npm
+  ```sh
+  npm install -g npm
+  ```
+- yarn
+  ```sh
+  npm install --global yarn
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ethansalonga/mythic-ecommerce
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run on your local machine
+   ```sh
+   npm run start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+Ethan Salonga - [E-portfolio](https://ethansalonga.dev/) - ethan@ethansalonga.dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Project Link: [https://github.com/ethansalonga/mythic-ecommerce](https://github.com/ethansalonga/mythic-ecommerce)
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- MARKDOWN LINKS & IMAGES -->
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/ethan-salonga/
+[product-screenshot]: src/assets/screenshot.png
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
