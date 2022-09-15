@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Item from "../components/ui/Item"
 
-const Books = ({ items: initialItems }) => {
+const Items = ({ items: initialItems }) => {
   const [items, setItems] = useState(initialItems)
 
   function filterItems(filter) {
@@ -68,4 +68,4 @@ const Books = ({ items: initialItems }) => {
   )
 }
 
-export default Books
+export default Items

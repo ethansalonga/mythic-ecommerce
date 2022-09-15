@@ -11,44 +11,44 @@ import { items } from "./data"
 function App() {
   const [cart, setCart] = useState([])
 
-  function addToCart(book) {
-    setCart([...cart, { ...book, quantity: 1 }])
+  function addToCart(item) {
+    setCart([...cart, { ...item, quantity: 1 }])
 
     // ADDING MULTIPLE QUANTITIES OF ONE ITEM
-    // const dupeItem = cart.find(item => +item.id === +book.id)
+    // const dupeItem = cart.find(cartItem => +cartItem.id === +item.id)
     // if (dupeItem) {
     //   setCart(
-    //     cart.map(item => {
-    //       if (item.id === dupeItem.id) {
+    //     cart.map(cartItem => {
+    //       if (cartItem.id === dupeItem.id) {
     //         return {
-    //           ...item,
-    //           quantity: item.quantity + 1,
+    //           ...cartItem,
+    //           quantity: cartItem.quantity + 1,
     //         }
     //       } else {
-    //         return item
+    //         return cartItem
     //       }
     //     })
     //   )
     // } else {
-    //   setCart([...cart, { ...book, quantity: 1 }])
+    //   setCart([...cart, { ...item, quantity: 1 }])
     // }
   }
 
-  function changeQuantity(book, quantity) {
+  function changeQuantity(item, quantity) {
     setCart(
-      cart.map(item =>
-        item.id === book.id
+      cart.map(cartItem =>
+        cartItem.id === item.id
           ? {
-              ...item,
-              quantity: +quantity,
-            }
-          : item
+            ...cartItem,
+            quantity: +quantity,
+          }
+          : cartItem
       )
     )
   }
 
-  function removeItem(item) {
-    setCart(cart.filter(book => book.id !== item.id))
+  function removeItem(cartItem) {
+    setCart(cart.filter(item => item.id !== cartItem.id))
   }
 
   function numberOfItems() {

@@ -2,8 +2,8 @@ import React from "react"
 import { Link, useParams } from "react-router-dom"
 import Rating from "../components/ui/Rating"
 import Price from "../components/ui/Price"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Item from "../components/ui/Item"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const ItemInfo = ({ items, addToCart, cart }) => {
   const { id } = useParams()

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -247,13 +248,7 @@ header {
 
 .header__img--wrapper {
   padding: 20px;
-
-  /* Added this after the tutorial to 
-  show it over the wave on larger screens */
   z-index: 50;
-
-  /* Added this after the tutorial to 
-  make landing page responsive on laptops */
   max-height: 50vh;
 }
 
@@ -281,6 +276,7 @@ header {
 .no-cursor {
   cursor: not-allowed;
 }
+
 /* 
 
 HIGHLIGHTS 
@@ -487,11 +483,9 @@ footer {
 }
 
 /* 
-**
 
 ITEMS PAGE
 
-**
 */
 
 #items__body {
@@ -556,13 +550,9 @@ select {
 
 /* 
 
-  book/:id
+  Item/:id
     
 */
-
-.container__book--selected {
-  padding-top: 16px;
-}
 
 .item__selected {
   display: flex;
@@ -652,7 +642,7 @@ select {
   display: flex;
 }
 
-.cart__item {
+.cart__item--header {
   margin: 24px;
   display: flex;
   padding-right: 8px;
@@ -662,7 +652,7 @@ select {
   margin-bottom: 16px;
 }
 
-.cart__book {
+.cart__item {
   width: 60%;
   display: flex;
 }
@@ -687,29 +677,29 @@ select {
   width: 60px;
 }
 
-.cart__book--img {
+.cart__item--img {
   width: 100%;
   max-width: 90px;
   max-height: 128px;
 }
 
-.cart__book--info {
+.cart__item--info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 8px 16px;
 }
 
-.cart__book--title {
+.cart__item--title {
   font-size: 20px;
   margin-bottom: 16px;
 }
 
-.cart__book--price {
+.cart__item--price {
   margin-bottom: 16px;
 }
 
-.cart__book--remove {
+.cart__item--remove {
   background-color: transparent;
   color: #cf0000;
   border: none;
@@ -782,7 +772,7 @@ select {
     font-size: 18px;
   }
 
-  .book {
+  .item {
     width: 50%;
   }
 
@@ -816,10 +806,10 @@ select {
     margin-bottom: 24px;
   }
 
-  .cart__book--img {
+  .cart__item--img {
     display: none;
   }
-  .cart__book--info {
+  .cart__item--info {
     padding-left: 0;
   }
 }

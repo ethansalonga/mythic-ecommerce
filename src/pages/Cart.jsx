@@ -12,33 +12,33 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
   }
 
   return (
-    <div id="books__body">
-      <main id="books__main">
-        <div className="books__container">
+    <div id="items__body">
+      <main id="items__main">
+        <div className="items__container">
           <div className="row">
-            <div className="book__selected--top">
+            <div className="item__selected--top">
               <h2 className="cart__title">Cart</h2>
             </div>
             <div className="cart">
               <div className="cart__header">
-                <span className="cart__book">Book</span>
+                <span className="cart__item--header">Item</span>
                 <span className="cart__quantity">Quantity</span>
                 <span className="cart__total">Price</span>
               </div>
               <div className="cart__body">
-                {cart.map(book => {
+                {cart.map(item => {
                   return (
                     <div className="cart__item">
-                      <div className="cart__book">
-                        <img src={book.url} class="cart__book--img" alt="" />
-                        <div className="cart__book--info">
-                          <span className="cart__book--title">{book.name}</span>
-                          <span className="cart__book--price">
-                            ${(book.salePrice || book.originalPrice).toFixed(2)}
+                      <div className="cart__item">
+                        <img src={item.url} class="cart__item--img" alt="" />
+                        <div className="cart__item--info">
+                          <span className="cart__item--title">{item.name}</span>
+                          <span className="cart__item--price">
+                            ${(item.salePrice || item.originalPrice).toFixed(2)}
                           </span>
                           <button
-                            className="cart__book--remove"
-                            onClick={() => removeItem(book)}
+                            className="cart__item--remove"
+                            onClick={() => removeItem(item)}
                           >
                             Remove
                           </button>
@@ -50,16 +50,16 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                           min={0}
                           max={99}
                           className="cart__input"
-                          value={book.quantity}
+                          value={item.quantity}
                           onChange={event =>
-                            changeQuantity(book, event.target.value)
+                            changeQuantity(item, event.target.value)
                           }
                         />
                       </div>
                       <div className="cart__total">
                         $
                         {(
-                          (book.salePrice || book.originalPrice) * book.quantity
+                          (item.salePrice || item.originalPrice) * item.quantity
                         ).toFixed(2)}
                       </div>
                     </div>
@@ -69,9 +69,9 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
               {cart.length === 0 && (
                 <div className="cart__empty">
                   <img src={EmptyCart} alt="" className="cart__empty--img" />
-                  <h2>You don't have any books in your cart!</h2>
-                  <Link to="/books">
-                    <button className="btn">Browse books</button>
+                  <h2>You don't have any items in your cart!</h2>
+                  <Link to="/items">
+                    <button className="btn">Browse items</button>
                   </Link>
                 </div>
               )}
