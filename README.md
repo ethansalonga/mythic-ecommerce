@@ -1,14 +1,10 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/public/logo.png" alt="Logo" width="80" height="80">
+    <img src="/public/logo.png" alt="Logo" width="160" height="160">
   </a>
 
   <h3 align="center">Mythic Item Shop</h3>
@@ -31,43 +27,7 @@ Mythic Item Shop is a dynamic e-commerce application that mimics the UI/UX of a 
 - HTML
 - CSS
 - JavaScript
-- [![React][react.js]][react-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-Mythic Item Shop is hosted and deployed online using Heroku. Click the image above to view the application, or alternatively, read on to learn how to run it locally on your machine.
-
-### Prerequisites
-
-To run locally on your machine, a package manager such as npm or yarn is the only requirement.
-
-- npm
-  ```sh
-  npm install -g npm
-  ```
-- yarn
-  ```sh
-  npm install --global yarn
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/ethansalonga/mythic-ecommerce
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Run on your local machine
-   ```sh
-   npm run start
-   ```
+- React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,6 +38,8 @@ To run locally on your machine, a package manager such as npm or yarn is the onl
 Ethan Salonga - [E-portfolio](https://ethansalonga.dev/) - ethan@ethansalonga.dev
 
 Project Link: [https://github.com/ethansalonga/mythic-ecommerce](https://github.com/ethansalonga/mythic-ecommerce)
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
