@@ -3,9 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/public/logo.png" alt="Logo" width="160" height="160">
-  </a>
+  <img src="/public/logo.png" alt="Logo" width="160" height="160">
 
   <h3 align="center">Mythic Item Shop</h3>
 </div>
