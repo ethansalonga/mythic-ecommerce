@@ -18,16 +18,12 @@ _"Treasures of the ages, on sale now!"_ - Hermit Shopkeeper
 
 Mythic Item Shop is a dynamic e-commerce application that mimics the UI/UX of a real online shopping portal. The project was built in React and features a theme designed around the online video game League of Legends (one of my personal favorites). Explore the artifacts of Runeterra by purchasing Mythic-level items from the game, complete with in-game data such as item stats and descriptions. Note: The checkout section of this project has not yet been implemented.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 - HTML
 - CSS
 - JavaScript
 - React
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
@@ -38,8 +34,6 @@ Ethan Salonga - [E-portfolio](https://ethansalonga.dev/) - ethan@ethansalonga.de
 Project Link: [https://github.com/ethansalonga/mythic-ecommerce](https://github.com/ethansalonga/mythic-ecommerce)
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
