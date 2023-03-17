@@ -12,7 +12,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://mythic-ecommerce.herokuapp.com/)
+[![Product Name Screen Shot][product-screenshot]](https://elaborate-snickerdoodle-11b06c.netlify.app/)
 
 _"Treasures of the ages, on sale now!"_ - Hermit Shopkeeper
 
