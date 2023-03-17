@@ -36,7 +36,7 @@ export const items = [
   {
     id: 4,
     name: "Eclipse",
-    url: "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Eclipse_item_HD.png",
+    url: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3a/Eclipse_item_old.png",
     originalPrice: 3100,
     salePrice: 2170,
     rating: 4,
@@ -58,7 +58,7 @@ export const items = [
   {
     id: 6,
     name: "Everfrost",
-    url: "https://static.wikia.nocookie.net/leagueoflegends/images/a/a0/Everfrost_item_HD.png",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS14umO_yDF-B45kZIO9GM8JhlBDV8u2ivS2jWNLVfaYVGzT_uEuRExwwPv4X1x-9onmdI&usqp=CAU",
     originalPrice: 2800,
     salePrice: null,
     rating: 4.5,
@@ -69,7 +69,7 @@ export const items = [
   {
     id: 7,
     name: "Frostfire Gauntlet",
-    url: "https://static.wikia.nocookie.net/leagueoflegends/images/e/ee/Frostfire_Gauntlet_item_HD.png",
+    url: "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9bfd9768726a2365/636c73198b1a6210a79a0b47/111522_Patch_12_22_Notes_Iceborn_Gauntlet.png",
     originalPrice: 2800,
     salePrice: null,
     rating: 5,
@@ -107,18 +107,20 @@ export const items = [
     originalPrice: 3200,
     salePrice: null,
     rating: 3.5,
-    stats: "+90 ability power | +15 ability haste | +250 health | +6 magic penetration",
+    stats:
+      "+90 ability power | +15 ability haste | +250 health | +6 magic penetration",
     description:
       "Dash 125 to 275 units in the target direction, though not through terrain, unleashing an arc of 7 rockets in the same direction that deal 125 (+ 15% AP) magic damage. Afterwards, gain 30% bonus movement speed while moving towards nearby enemy champions for 1.5 seconds (40 second cooldown). Supersonic resets the user's basic attack timer. Empowers each of your other Legendary items with 5 magic penetration.",
   },
   {
     id: 11,
     name: "Immortal Shieldbow",
-    url: "https://static.wikia.nocookie.net/leagueoflegends/images/7/7f/Immortal_Shieldbow_item_HD.png",
+    url: "https://leagueofitems.com/images/items/256/6673.webp",
     originalPrice: 3400,
     salePrice: null,
     rating: 4,
-    stats: "+50 attack damage | +20% attack speed | +20% critical strike chance | +7% life steal",
+    stats:
+      "+50 attack damage | +20% attack speed | +20% critical strike chance | +7% life steal",
     description:
       "If you would take damage that would reduce you below 30% of your maximum health, you first gain a shield that absorbs 250 − 630 (based on level) damage for 3 seconds and 15 − 35 (based on level) bonus attack damage for 8 seconds (90 second cooldown). Empowers each of your other Legendary items with 5 bonus attack damage, and 70 bonus health.",
   },
@@ -129,7 +131,8 @@ export const items = [
     originalPrice: 2500,
     salePrice: 1750,
     rating: 3.5,
-    stats: "+40 ability power | +20 ability haste | +200 health | +100% base mana regeneration",
+    stats:
+      "+40 ability power | +20 ability haste | +200 health | +100% base mana regeneration",
     description:
       "Abilities that slow or mmobilize enemy champions deal 45 − 75 (based on level) bonus magic damage and mark them for 4 seconds. Allied champions that damage marked enemies consume the mark to deal 90 − 150 (based on ally's level) bonus magic damage and grant you and the triggering ally 20% bonus movement speed for 2 seconds (6 (per champion, starts upon mark application) second cooldown). Empowers each of your other Legendary items with 15 ability power.",
   },
@@ -140,14 +143,15 @@ export const items = [
     originalPrice: 3400,
     salePrice: null,
     rating: 5,
-    stats: "+65 attack damage | +25% attack speed | +20% critical strike chance",
+    stats:
+      "+65 attack damage | +25% attack speed | +20% critical strike chance",
     description:
       "Basic attacks (on-hit / on-attack) grant a stack for 3 seconds, up to 2 stacks. At 2 stacks, the next basic attack consumes all stacks to deal 50 (+ 40% bonus AD) bonus true damage on-hit. Empowers each of your other Legendary items with 10% bonus attack speed.",
   },
   {
     id: 14,
     name: "Liandry's Anguish",
-    url: "https://static.wikia.nocookie.net/leagueoflegends/images/8/85/Liandry%27s_Anguish_item_HD.png",
+    url: "https://leagueofitems.com/images/items/256/6653.webp",
     originalPrice: 3200,
     salePrice: 2240,
     rating: 4.5,
@@ -173,7 +177,8 @@ export const items = [
     originalPrice: 2500,
     salePrice: null,
     rating: 4,
-    stats: "+80 ability power | +20 ability haste | +600 mana | +6 magic penetration",
+    stats:
+      "+80 ability power | +20 ability haste | +600 mana | +6 magic penetration",
     description:
       "Dealing ability damage to an enemy deals 100 (+ 10% AP) additional magic damage to them and launches orbs at up to 3 other enemies within 600 units around them, impacting after 0.528 seconds to deal the same damage to each, and grants you 15% bonus movement speed for 2 seconds. Dealing ability damage against champions reduces the cooldown of Echo by 0.5 seconds per champion, up to a maximum of 3 seconds per cast (10 second cooldown). Empowers each of your other Legendary items with 5 magic penetration.",
   },
@@ -184,14 +189,15 @@ export const items = [
     originalPrice: 2500,
     salePrice: 1750,
     rating: 3,
-    stats: "+40 ability power | +20 ability haste | +200 health | +100% base mana regeneration",
+    stats:
+      "+40 ability power | +20 ability haste | +200 health | +100% base mana regeneration",
     description:
       "When affecting champions with attacks or abilities in combat, heal the nearby allied champion (excluding yourself) with the most missing health for 60 (2 second cooldown). Each second spent in combat with champions grants 5% heal and shield power, stacking up to 4 times for maximum of 20%. Empowers each of your other Legendary items with 8 heal for this item's passive effect, Starlit Grace.",
   },
   {
     id: 18,
     name: "Night Harvester",
-    url: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d8/Night_Harvester_item_HD.png",
+    url: "https://leagueofitems.com/images/items/256/4636.webp",
     originalPrice: 3200,
     salePrice: 3200,
     rating: 4,
@@ -228,7 +234,8 @@ export const items = [
     originalPrice: 2500,
     salePrice: null,
     rating: 3.5,
-    stats: "+40 ability power | +20 ability haste | +200 health | +100% base mana regeneration",
+    stats:
+      "+40 ability power | +20 ability haste | +200 health | +100% base mana regeneration",
     description:
       "Grants you and all allies within 1000 units of you 30% bonus movement speed for 4 seconds (75 second cooldown). Healing, shielding, or buffing allied champions (excluding yourself) grants you and them 25% bonus movement speed for 1.5 seconds (4 (per champion) second cooldown). Empowers each of your other Legendary items with 5 ability haste.",
   },
@@ -239,14 +246,15 @@ export const items = [
     originalPrice: 3300,
     salePrice: null,
     rating: 4.5,
-    stats: "+50 attack damage | +20 ability haste | +20% attack speed | +300 health",
+    stats:
+      "+50 attack damage | +20 ability haste | +20% attack speed | +300 health",
     description:
       "Deal 175% base AD physical damage to enemies in a 450 radius centered around you and slow them by 40% for 3 seconds. Can move while casting (15 (reduced by ability haste) second cooldown). Dealing physical damage grants you 20 bonus movement speed for 2 seconds. Empowers each of your other Legendary items with 2% bonus movement speed.",
   },
   {
     id: 23,
     name: "Sunfire Aegis",
-    url: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Sunfire_Aegis_item_HD.png",
+    url: "https://leagueofitems.com/images/items/256/3068.webp",
     originalPrice: 3200,
     salePrice: 2240,
     rating: 5,
@@ -261,7 +269,8 @@ export const items = [
     originalPrice: 3333,
     salePrice: null,
     rating: 5,
-    stats: "+35 attack damage | +20 ability haste | +30% attack speed | +300 health",
+    stats:
+      "+35 attack damage | +20 ability haste | +30% attack speed | +300 health",
     description:
       "Basic attacks grant 20 bonus movement speed for 3 seconds and, if the target is a champion or a structure, increase base attack damage by 4% for the same duration, stacking up to 5 times for a 20% increase. Stacks expire by one every 0.5 seconds when the duration ends. After using an ability, your next basic attack within 10 seconds deals 200% base AD bonus physical damage on-hit (1.5 (begins after using the empowered attack) second cooldown). Empowers each of your other Legendary items with 3 bonus attack damage, 3 ability haste, and 3 bonus movement speed.",
   },
