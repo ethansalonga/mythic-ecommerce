@@ -5,6 +5,9 @@ const Items = ({ items: initialItems }) => {
   const [items, setItems] = useState(initialItems)
 
   function filterItems(filter) {
+    if (filter === "NAME") {
+      setItems(initialItems)
+    }
     if (filter === "LOW_TO_HIGH") {
       setItems(
         items
@@ -50,6 +53,7 @@ const Items = ({ items: initialItems }) => {
                   <option value="DEFAULT" disabled>
                     Sort
                   </option>
+                  <option value="NAME">Name</option>
                   <option value="LOW_TO_HIGH">Price, Low to High</option>
                   <option value="HIGH_TO_LOW">Price, High to Low</option>
                   <option value="RATING">Rating</option>
