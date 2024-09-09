@@ -10,7 +10,7 @@ const Items = ({ items: initialItems }) => {
     }
     if (filter === "LOW_TO_HIGH") {
       setItems(
-        items
+        initialItems
           .slice()
           .sort(
             (a, b) =>
@@ -21,7 +21,7 @@ const Items = ({ items: initialItems }) => {
     }
     if (filter === "HIGH_TO_LOW") {
       setItems(
-        items
+        initialItems
           .slice()
           .sort(
             (a, b) =>
@@ -31,7 +31,7 @@ const Items = ({ items: initialItems }) => {
       )
     }
     if (filter === "RATING") {
-      setItems(items.slice().sort((a, b) => b.rating - a.rating))
+      setItems(initialItems.slice().sort((a, b) => b.rating - a.rating))
     }
   }
 
