@@ -58,7 +58,7 @@ export const items = [
   {
     id: 6,
     name: "Everfrost",
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS14umO_yDF-B45kZIO9GM8JhlBDV8u2ivS2jWNLVfaYVGzT_uEuRExwwPv4X1x-9onmdI&usqp=CAU",
+    url: "https://pbs.twimg.com/media/FUMOjylWYAAoG4R.png",
     originalPrice: 2800,
     salePrice: null,
     rating: 4.5,
@@ -69,7 +69,7 @@ export const items = [
   {
     id: 7,
     name: "Frostfire Gauntlet",
-    url: "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9bfd9768726a2365/636c73198b1a6210a79a0b47/111522_Patch_12_22_Notes_Iceborn_Gauntlet.png",
+    url: "https://leagueofitems.com/images/items/256/6662.webp",
     originalPrice: 2800,
     salePrice: null,
     rating: 5,
