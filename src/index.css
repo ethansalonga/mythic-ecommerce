@@ -636,7 +636,6 @@ select {
 
 .cart__header {
   background-color: #7342d6;
-  margin: 0 24px;
   padding: 8px 16px;
   color: white;
   display: flex;
