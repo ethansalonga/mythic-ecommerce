@@ -751,6 +751,13 @@ select {
   width: 100%;
   font-size: 16px;
   padding: 12px 0;
+  text-align: center;
+  transition: background-color 100ms ease-in-out;
+}
+
+.btn__checkout:hover {
+  background-color: #8f68de;
+  text-decoration: none;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
